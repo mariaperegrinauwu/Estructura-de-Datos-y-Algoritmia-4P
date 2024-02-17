@@ -1,0 +1,65 @@
+Tarea "Métodos de Ordenamiento".
+
+Alumna: María Peregrina.
+Registro: 22310336.
+Grupo: 4°P.
+
+¿Qué son los métodos de ordenamiento?
+
+	Algoritmos que se encargan de arreglar registros de una tabla según el orden secuencial que indique el método de ordenamiento que se utilice. Puede ser de forma iterativa o recursiva, según la naturaleza y forma de la ejecución que lo distinga.
+
+1.- Método de Ordenamiento de la Burbuja (BubbleSort):
+
+	Método simple.
+
+	Revisa cada elemento de la lista y lo compara con el que sigue y los cambia de pocisión si el elemento siguiente es MENOR.
+
+
+2.- Método de Ordenamiento de Selección (SelectionSort):
+
+	Busca el menor entre todos los elementoos aún no ordenados y lo coloca al principio. Luego hace lo mismo coon los elementos restantes.
+
+
+3.- Método de Ordenamiento de Inserción (InsertionSort):
+
+	Recorre la lista y ordena, por cada elemento, acomodándolo en el lugar que le corresponde entre los que ya ordenó.
+
+
+4.- Método de Ordenamiento Shell:
+
+	Una mejora del método de Inserción, ya que se utiliza para grandes cantidades de elementos.
+
+	Compara los elementos pero separados por varias pocisiones, y permite que un elemento haga pasos más grandes para acercarce a su pocisión deseada. Finalmente,, se hace un Ordenamiento por Inserción simple.
+
+
+5.- Método de Ordenamiento por mezcla (MergeSort):
+
+	Divide la lista desordenada en dos sublistas haciendo dos mitades, se ordena cada lista mezclando las listas entre sí.
+
+
+6.- Método de ordenamiento rápido (QuickSort):
+
+	Partición. Poner todos los elementos menores que el elemento, antes de este, y los mayores, después del mismo. 
+
+
+7.- Método de ordenamiento del montón (HeapSort):
+
+	Se encuentra un elemento máximo y se coloca al final, y se repite el proceso con todos los elementos. Se realizan previamente montones que se irán acomodando con el algoritmo según cuál es el más grande del montpón y se irán eliminando y acomodando los elementos mayores en la lista.
+
+
+8.- Método de Ordenamiento del peine (CombSort):
+
+	Mejora del Método de la Burbuja.
+
+	El espacio entre los elementos a comparar en mayor a uno; es un valor grande que se reduce en un factor x en cada iteración hasta que alcanza el nivel 1.
+
+
+9.- Método de Ordenamiento de la burbuja Bidireccional (CocktailSort):
+
+	Este ordenamiento se realiza en ambas direcciones, comprueba que el primero sin ordenar sea el menor, y el último sin ordenar sea mayor, acomodando así a cada elemento en su respectivo lugar.
+
+	
+
+	
+
+	 
